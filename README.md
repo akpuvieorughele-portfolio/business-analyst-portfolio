@@ -12,13 +12,13 @@ I have a background in mechanical engineering and a strong foundation in problem
 ## Technical & Professional Skills
 
 <p>
-<img src="assets/icons/sql.png" height="60" alt="SQL"/>&nbsp;&nbsp;
-<img src="assets/icons/power-bi.png" height="60" alt="Power BI"/>&nbsp;&nbsp;
-<img src="assets/icons/tableau.png" height="60" alt="Tableau"/>&nbsp;&nbsp;
-<img src="assets/icons/excel.jpg" height="60" alt="Excel"/>&nbsp;&nbsp;
-<img src="assets/icons/python.jpg" height="60" alt="Python"/>&nbsp;&nbsp;
-<img src="assets/icons/salesforce.png" height="60" alt="Salesforce"/>&nbsp;&nbsp;
-<img src="assets/icons/databricks.png" height="60" alt="Databricks"/>
+<img src="sql.png" height="60" alt="SQL"/>&nbsp;&nbsp;
+<img src="power-bi.png" height="60" alt="Power BI"/>&nbsp;&nbsp;
+<img src="tableau.png" height="60" alt="Tableau"/>&nbsp;&nbsp;
+<img src="excel.jpg" height="60" alt="Excel"/>&nbsp;&nbsp;
+<img src="python.jpg" height="60" alt="Python"/>&nbsp;&nbsp;
+<img src="salesforce.png" height="60" alt="Salesforce"/>&nbsp;&nbsp;
+<img src="databricks.png" height="60" alt="Databricks"/>
 </p>
 
 - ⭐ Data Visualization
