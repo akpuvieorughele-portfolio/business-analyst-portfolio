@@ -243,13 +243,3 @@ ab-test-project/
 
 `Python` · `pandas` · `numpy` · `scipy.stats` · `statsmodels` · `matplotlib` · `seaborn` · `Jupyter`
 
-## Reproducing This Analysis
-
-```bash
-pip install pandas numpy scipy statsmodels matplotlib seaborn jupyter
-
-python scripts/generate_dataset.py      # regenerate the dataset
-python scripts/analysis.py              # run the stats pipeline → reports/analysis_results.json
-python scripts/visualizations.py        # regenerate charts → images/
-jupyter notebook notebooks/ab_test_analysis.ipynb   # explore interactively
-```
