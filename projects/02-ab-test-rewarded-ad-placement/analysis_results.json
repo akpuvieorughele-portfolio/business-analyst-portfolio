@@ -1,0 +1,170 @@
+{
+  "srm_check": {
+    "n_control": 24814,
+    "n_treatment": 25186,
+    "chi2": 2.7677,
+    "p_value": 0.0962,
+    "srm_detected": false
+  },
+  "balance_checks": {
+    "platform": 0.9742,
+    "country_tier": 0.0362,
+    "user_type": 0.9775,
+    "acquisition_channel": 0.1526,
+    "device_age_months": 0.2097
+  },
+  "power_analysis": {
+    "baseline_retention": 0.6599,
+    "mde_abs": 0.02,
+    "alpha": 0.05,
+    "power_target": 0.8,
+    "required_n_per_group": 8676.0,
+    "actual_n_control": 24814,
+    "actual_n_treatment": 25186
+  },
+  "primary_metric_ad_revenue": {
+    "control_mean": 0.0255,
+    "treatment_mean": 0.0323,
+    "abs_lift": 0.0069,
+    "rel_lift_pct": 26.95,
+    "ci_95_low": 0.0064,
+    "ci_95_high": 0.0074,
+    "ttest_p": 7.103419104941821e-152,
+    "mannwhitney_p": 1.8527457477051003e-185
+  },
+  "guardrail_retention": {
+    "control_rate": 0.6599,
+    "treatment_rate": 0.6379,
+    "abs_diff_pp": -2.206,
+    "ci_diff_low_pp": -3.042,
+    "ci_diff_high_pp": -1.369,
+    "z_stat": -5.1656,
+    "p_value": 2.396111631033926e-07,
+    "guardrail_violated": true
+  },
+  "secondary_metrics": {
+    "ad_impressions": {
+      "control_mean": 4.1729,
+      "treatment_mean": 5.7311,
+      "rel_change_pct": 37.34,
+      "p_value": 0.0
+    },
+    "ad_completion_rate": {
+      "control_mean": 0.7748,
+      "treatment_mean": 0.7459,
+      "rel_change_pct": -3.73,
+      "p_value": 7.375577458849146e-39
+    },
+    "total_revenue_usd": {
+      "control_mean": 0.4476,
+      "treatment_mean": 0.4514,
+      "rel_change_pct": 0.85,
+      "p_value": 0.8662022422945848
+    },
+    "iap_revenue_usd": {
+      "control_mean": 0.4222,
+      "treatment_mean": 0.4191,
+      "rel_change_pct": -0.72,
+      "p_value": 0.8930234092214681
+    },
+    "day1_sessions": {
+      "control_mean": 1.7317,
+      "treatment_mean": 1.6814,
+      "rel_change_pct": -2.91,
+      "p_value": 0.010150993288421546
+    },
+    "uninstall_after_ad_flag": {
+      "control_mean": 0.0132,
+      "treatment_mean": 0.0242,
+      "rel_change_pct": 83.49,
+      "p_value": 9.183149174959618e-20
+    }
+  },
+  "segmentation": [
+    {
+      "dimension": "platform",
+      "segment": "Android",
+      "n_control": 16916,
+      "n_treatment": 17174,
+      "control_mean": 0.0237,
+      "treatment_mean": 0.0302,
+      "rel_lift_pct": 27.5,
+      "p_value": 6.143244344451103e-109,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    },
+    {
+      "dimension": "platform",
+      "segment": "iOS",
+      "n_control": 7898,
+      "n_treatment": 8012,
+      "control_mean": 0.0292,
+      "treatment_mean": 0.0368,
+      "rel_lift_pct": 26.0,
+      "p_value": 3.923804007247821e-48,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    },
+    {
+      "dimension": "country_tier",
+      "segment": "Tier1_US_UK_DE",
+      "n_control": 7611,
+      "n_treatment": 7462,
+      "control_mean": 0.0504,
+      "treatment_mean": 0.0651,
+      "rel_lift_pct": 29.2,
+      "p_value": 4.53219578564208e-148,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    },
+    {
+      "dimension": "country_tier",
+      "segment": "Tier2_BR_MX_IN",
+      "n_control": 9828,
+      "n_treatment": 10088,
+      "control_mean": 0.0194,
+      "treatment_mean": 0.0248,
+      "rel_lift_pct": 27.87,
+      "p_value": 8.705201369526804e-157,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    },
+    {
+      "dimension": "country_tier",
+      "segment": "Tier3_Other",
+      "n_control": 7375,
+      "n_treatment": 7636,
+      "control_mean": 0.0078,
+      "treatment_mean": 0.0101,
+      "rel_lift_pct": 30.79,
+      "p_value": 6.996176985874059e-88,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    },
+    {
+      "dimension": "user_type",
+      "segment": "new_user",
+      "n_control": 13686,
+      "n_treatment": 13887,
+      "control_mean": 0.0227,
+      "treatment_mean": 0.03,
+      "rel_lift_pct": 32.47,
+      "p_value": 1.781664582258232e-112,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    },
+    {
+      "dimension": "user_type",
+      "segment": "returning_user",
+      "n_control": 11128,
+      "n_treatment": 11299,
+      "control_mean": 0.0289,
+      "treatment_mean": 0.0351,
+      "rel_lift_pct": 21.6,
+      "p_value": 2.6885153515728173e-50,
+      "sig_raw_005": true,
+      "sig_bonferroni": true
+    }
+  ],
+  "bonferroni_alpha": 0.0071428571428571435
+}
